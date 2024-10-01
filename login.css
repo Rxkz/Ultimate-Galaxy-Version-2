@@ -1,0 +1,64 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.outline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:28px;
+    
+    
+}
+.formtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:32px;
+    
+}
+.form {
+   
+    background-color: #DFDFDF; 
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 30px;
+    width: 500px;
+    border: 1px solid grey;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+     input[type='text'], input[type='email'],input[type='password']{ 
+        padding: 16px;  
+}
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    font-size:32px;
+    
+}
+button {
+    padding: 8px;
+    border-radius: 10px;
+    color:white;
+    background-color: black;
+    font-size:28px;
+    
+}
+.terms{
+    opacity: 70%;
+    font-size:18px;
+}
+h3{
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+    font-size:32px;
+}
+input{
+    font-size:24px;
+}

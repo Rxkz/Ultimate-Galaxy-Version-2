@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Ultimate Galaxy" content="Ultimategalaxy412,Ultimate,Ultimategalaxy"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online shopping</title>
+    <!-- font-family: "Monoton", sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Monoton&display=swap"
+        rel="stylesheet">
+    <!-- font-family: "Montserrat", sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <style>
+        .outline {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+        }
+
+        .formtitle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+
+            h1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20px;
+                padding: 10px;
+                font-size: 32px;
+            }
+        }
+
+        .form {
+            background-color: #DFDFDF;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            margin: 30px;
+            width: 500px;
+            border: 1px solid grey;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+
+            input[type='text'],
+            input[type='email'] {
+                padding: 16px;
+            }
+
+            h1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 10px;
+                padding: 10px;
+
+            }
+        }
+
+        button {
+            padding: 8px;
+            border-radius: 10px;
+            color: white;
+            background-color: black;
+            font-size: 28px;
+        }
+
+        .terms {
+            opacity: 70%;
+            font-size: 18px;
+        }
+
+        input {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="subheader">
+            <div class="subheaderleft">
+                <img src="Ultimate Galaxy logo.png" height="150px" width="150px" alt="logo">
+                <h1>Ultimate Galaxy Shop</h1>
+            </div>
+            <div class="subheaderright">
+                <div><input class="searchbutton" type="search" placeholder="Search"></div>
+                <a href="login.html"><button class="loginbutton">Login</button></a>
+            </div>
+        </div>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="product.html">Products</a>
+
+            <a href="Gallery.html">Gallery</a>
+        </div>
+    </div>
+    <div class="formtitle">
+        <img src="Ultimate Galaxy logo.png" height="80px" width="80px" alt="logo">
+        <h1>Ultimate Galaxy Shop</h1>
+    </div>
+    <div class="outline">
+        <form class="form" action="">
+            <h1> Online Shopping</h1>
+            <label for="name">Full Name:</label>
+            <input type="text" name="fullname" placeholder="Full Name " required />
+            <label for="email">Email Address or Mobile Number :</label>
+            <input type="email" name="email" placeholder="Email " required />
+            <label for="name">Delivery Method</label>
+            <label><input type="radio" name="Delivery " placeholder="Delivery " required />Delivery</label>
+            <label><input type="radio" name="Delivery " placeholder="Delivery " required />Click and Pay</label>
+            <label for="address">Address:</label>
+            <input type="text" name="address" placeholder="Address 1" required />
+            <input type="text" name="address" placeholder="Address 2" />
+            <p class="terms">By continuing, you agree to Ultimate Galaxy’s
+                Conditions of Use and Privacy Notice.</p>
+            <button href="">Continue to pay</button>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="fsection1">
+            <div class="contactus">
+                <h3>Contact us</h3>
+                <div class="img">
+                    <img src="./facebooklogo.png" height="30px" width="30px" alt="height">
+                    <a href="https://www.facebook.com/login.php/">
+                        <h4>Facebook</h4>
+                    </a>
+                </div>
+                <div class="img">
+                    <img src="instagramlogo.jpg" height="30px" width="30px" alt="instagram">
+                    <a href="https://www.instagram.com/">
+                        <h4>Instagram</h4>
+                    </a>
+                </div>
+                <div class="img">
+                    <img src="twitter.png" height="30px" width="30px" alt="twitter">
+                    <a href="https://x.com/">
+                        <h4>Twitter</h4>
+                    </a>
+                </div>
+                <div class="img">
+                    <img src="youtube.png" height="30px" width="30px" alt="youtube">
+                    <a href="https://youtube.com">
+                        <h4>Youtube</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="site">
+                <h4>Sitemap</h4>
+
+                <h3><a href="Home.html">Home</a></h3>
+                <h3><a href="about.html">About Us</a></h3>
+                <h3><a href="product.html">Product</a></h3>
+                <h3><a href="Gallery.html">Gallery</a></h3>
+                </ul>
+            </div>
+            <div class="contactus">
+                <img src="./Ultimate Galaxy logo.png" height="100px" width="100px" alt="logo">
+                <h4>Email:Ultimategalaxy412@gmail.com</h4>
+                <h4>Phone No: 0224518759</h4>
+            </div>
+        </div>
+        <div class="section2">
+            <h3>©2024 Ultimate Galaxy shop All rights reserved</h3>
+        </div>
+    </div>
+</body>
+
+</html>

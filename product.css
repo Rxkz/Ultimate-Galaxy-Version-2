@@ -1,0 +1,66 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.product-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+   
+    justify-items: center;
+    justify-content: center;
+    
+    margin: 30px 200px 30px 200px;
+    
+    background-color: rgb(225, 244, 244);
+}
+
+    .card {
+        background-color: rgb(197, 183, 166);
+        /* background-image: linear-gradient(rgba(198, 227, 206, 0.851) 30%, fuchsia); */
+        /* border: 1px solid rgb(16, 181, 32); */
+        padding: 10px;
+        width: 400px;
+    }
+
+    .responsive-img {
+        max-width: 100%;
+        display:block;   
+        background-color: beige;
+       
+    }
+    .responsive-img:hover{
+        transform: scale(1.05);
+        transition:1.5s;
+    }
+
+    .card button {
+        margin-top: 20px;
+        padding: 10px 12px;
+        background-color: black;
+        color: rgb(255, 250, 250);
+        font-family: system-ui, sans-serif;
+        outline: none;
+        border: none;
+        a:hover{
+            background-color: rgb(15, 14, 14);
+           }
+    }
+
+    
+
+    .p_details {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        h1{
+            display: flex;
+            font-size: 32px;
+            /* background-color: rgb(173, 173, 197); */
+            justify-content: Left;
+          
+        }
+    }
+    .addtocartbtn{
+        color:white;
+     
+       
+    }
